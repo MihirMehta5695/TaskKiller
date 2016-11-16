@@ -12,6 +12,10 @@ public class TaskList
 
 	public void getTaskList()
 	{
+		/*Runtime rt=Runtime.getRuntime();
+		System.out.println(rt.exec("taskkill /f /im mintty.exe"));
+		rt.exec("tasklist");*/
+		
 		ArrayList<String> arr=new ArrayList<>();
 		try 
 		{
